@@ -3,12 +3,8 @@ body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     color: #303030;
-    font-size: 16px;
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }
 
 .container {
@@ -159,9 +155,7 @@ button:hover {
 
 /* INFO */
 .info {
-    display: flex;
     background-color: #FFFFFF;
-    flex-direction: row;
 }
 
 .image-small-mobile {
@@ -181,7 +175,7 @@ button:hover {
 
 .image-info p {
     font-weight: 300;
-    padding-bottom: 24px;
+    line-height: 1.3;
 }
 
 .caption {

@@ -521,3 +521,26 @@ footer span {
         justify-content: center;
     }
 }
+
+/* MEDIA QUERY FOR TABLET */
+@media only screen and (min-width: 630px) and (max-width: 1050px) {
+    .course-text p {
+      font-size: 80%;
+    }
+    .course-text {
+      padding: 0.5rem;
+    }
+    .course h2 {
+      margin-top: 2px;
+    }
+  }
+  
+  @media only screen and (min-width: 630px) and (max-width: 720px){
+    .course h2 {
+      margin-top: 0;
+    }
+    .course h3 {
+      padding: 3px 0;
+    }
+
+}
